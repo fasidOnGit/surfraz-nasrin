@@ -1,29 +1,23 @@
 {
-  "title": "Colosseum",
-  "name": "the-colosseum",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "license": "MIT",
+  "name": "housecommerce",
+  "version": "1.0.0",
+  "description": "this is my first project in nodejs",
+  "main": "server.js",
   "scripts": {
-    "prestart": "npm install",
-    "start": "node server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "proxy": "http://localhost:8080",
-  "author": "The Wedding",
-  "contributors": [
-    "Kader Mohideen Fasod (https://fasid.herokuapp.com/)"
-  ],
-  "engines": {
-    "node": "9.2.0",
-    "npm": "5.5.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asikrasool/housecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asikrasool/housecommerce/issues"
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.16.3"
   }
 }
